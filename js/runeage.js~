@@ -1,0 +1,32 @@
+var Game = {
+
+    start: function(id) {
+        var mainPanel = $(id);
+        mainPanel.css('background-color', '#aa0000');
+        loadImages();
+
+        /*
+        var imgCardsUndead = new Image();
+        imgCardsUndead.src = 'img/cards_undead.jpg';
+        imgCardsUndead.id = 'dupa';
+        mainPanel.append(imgCardsUndead);
+
+        var a = $('#dupa');
+        a.attr('src', 'img/non.jpg');
+        */
+
+
+        
+    },
+
+    loadImages: function () {
+        var imgCardsUndead = new Image();
+        imgCardsUndead.src = 'img/cards_undead.jpg';
+
+        var imageCardsUndead1 = imCardsUndead.clone();
+        var aa = new Div();
+        $(aa).css('background', imgCardsUndead);
+
+    }
+
+};
