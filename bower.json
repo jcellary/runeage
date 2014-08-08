@@ -1,8 +1,8 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "runeage",
+  "description": "Rune Age",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "repository": "https://github.com/jcellary/runeage",
   "license": "MIT",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "angular-route": "1.2.x",
     "angular-loader": "1.2.x",
     "angular-mocks": "~1.2.x",
+    "jquery": "2.1.x",
     "html5-boilerplate": "~4.3.0"
   }
 }

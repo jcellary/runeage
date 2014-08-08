@@ -31,5 +31,15 @@
 
 body {
     margin: 1em 1em 1em 1em;
+}
 
+.validationError {
+    color: #ff0000;
+    visibility: hidden;
+}
+
+#GameView {
+    width: 1200px;
+    height: 500px;
+    background-color: #cccccc;
 }
