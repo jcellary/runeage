@@ -10,14 +10,15 @@ from app.game import GameManager
 from app import model
 import test_data
 
-class TestGameManager(unittest.TestCase):
+class TestAPI(unittest.TestCase):
+    SERVER_ADDRESS = 'http://localhost:5000'
 
-    def test_get_open_games(self):
+    def test_get_games(self):
         test_data.setup_test_db()
         
-        open_games = GameManager.get_open_games()
-        self.assertEqual(len(open_games), 1)
-        self.assertEqual(open_games[0].target_player_count, 3)
+        session = requests.Session()
+        games = session.get(self.SERVER_ADDRESS + settings.API_TEST_ROOT_ADDRESS + '/games').json()
+        self.assertEqual(len(games), 1)
 
 if __name__ == '__main__':
     unittest.main()
