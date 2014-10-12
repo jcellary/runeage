@@ -5,6 +5,7 @@ API_TEST_ROOT_ADDRESS = '/runeage/test/api/v1.0'
 MONGODB_ADDRESS = 'mongodb://localhost:27017/runeage'
 MONGODB_TEST_ADDRESS = 'mongodb://localhost:27017/runeage'
 
+SECRET_KEY = '#y(o-(xfpdeb@irbkvppq=bcmbwt)f*#-tne$!)c2--7!2l9+)'
 REQ_CONTEXT_USE_TEST_DB = 'use_test_db'
 
 FORCE_TEST_ENVIRONMENT = False
